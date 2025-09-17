@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project 2 – Clinical Data Cleaning</title>
+  <style>/* same CSS as above */</style>
+</head>
+<body>
+  <header>
+    <h1>Project 2 – Clinical Data Cleaning</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Description</h2>
+      <p>
+        Pipeline for cleaning and processing balance and gait assessment data for clinical research.
+      </p>
+    </section>
+    <section>
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="https://github.com/jasminecash/BBS-and-FGA-CFA" target="_blank">GitHub Repository</a></li>
+        <li><a href="#" target="_blank">Manuscript (DOI link)</a></li>
+        <li><a href="#" target="_blank">Dataset (OSF / Zenodo link)</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Technologies Used</h2>
+      <p>R, lavaan, tidyverse, ggplot2</p>
+    </section>
+    <a class="back-link" href="index.html">⬅ Back to Portfolio</a>
+  </main>
+</body>
+</html>
