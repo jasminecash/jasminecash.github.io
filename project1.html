@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Project 1 – EEG Pipeline Comparison</title>
+  <title>Project Group – EEG Pipelines</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -11,6 +11,7 @@
       margin: 0;
       padding: 0;
     }
+
     header {
       background-color: #4a90e2;
       color: white;
@@ -18,25 +19,66 @@
       padding: 1.5rem;
       box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
+
     main {
       max-width: 900px;
       margin: 2rem auto;
-      padding: 2rem;
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
     }
-    h2 {
+
+    .project-card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .project-card h2 {
       color: #4a90e2;
       border-bottom: 2px solid #4a90e2;
       display: inline-block;
       padding-bottom: 0.25rem;
+      margin-bottom: 1rem;
     }
-    ul { list-style: none; padding-left: 0; }
-    ul li { margin: 0.5rem 0; }
-    a { color: #4a90e2; font-weight: bold; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .back-link { display: block; margin-top: 2rem; text-align: center; }
+
+    .project-card ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .project-card ul li {
+      margin: 0.5rem 0;
+    }
+
+    .project-card a {
+      color: #4a90e2;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .project-card a:hover {
+      text-decoration: underline;
+    }
+
+    .back-link {
+      display: block;
+      margin-top: 2rem;
+      text-align: center;
+      font-weight: bold;
+      color: #4a90e2;
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -45,46 +87,51 @@
   </header>
   <main>
     <div class="project-card">
-    <section>
-      <h2>Project 1 Description</h2>
-      <p>
-        Compare preprocessing pipelines for Somatosensory Evoked Potential (SEP) data to optimize signal quality and analysis accuracy. We compared 2 different reference locations (ear (EC) and midline (FCZ)) for SEP detection. Based on signal quality we elected to go with the electrode configuration using FCZ as the reference.
-      </p>
-    </section>
-    <section>
-      <h2>Resources</h2>
-      <ul>
-        <li><a href="https://github.com/jasminecash/SEP-Preprocess" target="_blank">GitHub Repository</a></li>
-        <li><a href="https://www.sciencedirect.com/science/article/pii/S1935861X24007149?via%3Dihub" target="_blank">Abstract 1-Used to Support SEP ID</a></li>
-        <li><a href="#" target="_blank">Dataset (OSF / Zenodo link)</a></li>
-      </ul>
-    </section>
-    <section>
-      <h2>Technologies Used</h2>
-      <p>Matlab, EEGLAB, Tesa</p>
-    </section>
+      <section>
+        <h2>Project 1 Description</h2>
+        <p>
+          Compare preprocessing pipelines for Somatosensory Evoked Potential (SEP) data to optimize signal quality and analysis accuracy. We compared 2 different reference locations (ear (EC) and midline (FCZ)) for SEP detection. Based on signal quality we elected to go with the electrode configuration using FCZ as the reference.
+        </p>
+      </section>
+      <section>
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="https://github.com/jasminecash/SEP-Preprocess" target="_blank">GitHub Repository</a></li>
+          <li><a href="https://www.sciencedirect.com/science/article/pii/S1935861X24007149?via%3Dihub" target="_blank">Abstract 1-Used to Support SEP ID</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Technologies Used</h2>
+        <ul>
+          <li>Matlab</li>
+          <li>EEGLAB</li>
+          <li>Tesa</li>
+        </ul>
+      </section>
     </div>
 
     <div class="project-card">
-    <section>
-      <h2>Project 2 Description</h2>
-      <p>
-        Assess lateralization of SEPs using 64 channels.
-      </p>
-    </section>
-    <section>
-      <h2>Resources</h2>
-      <ul>
-        <li><a href="#" target="_blank">GitHub Repository</a></li>
-        <li><a href="#" target="_blank">Abstract 1-Used to Support SEP ID</a></li>
-        <li><a href="#" target="_blank">Dataset (OSF / Zenodo link)</a></li>
-      </ul>
-    </section>
-    <section>
-      <h2>Technologies Used</h2>
-      <p>Matlab, EEGLAB, Tesa</p>
-    </section>
+      <section>
+        <h2>Project 2 Description</h2>
+        <p>
+          Assess lateralization of SEPs using 64 channels.
+        </p>
+      </section>
+      <section>
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="#" target="_blank">GitHub Repository-COMING SOON</a></li>
+          <li><a href="#" target="_blank">Writing-COMING SOON</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Technologies Used</h2>
+        <p>
+          Matlab, EEGLAB, Tesa
+        </p>
+      </section>
     </div>
+
     <a class="back-link" href="index.html">⬅ Back to Portfolio</a>
   </main>
 </body>
